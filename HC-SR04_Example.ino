@@ -28,7 +28,7 @@ void loop() {
         Serial.print(_distance); //Print the distance out
         Serial.print(",");
         Serial.println(loopTime); //Print the loop time out
-        elapsedTime = 0; //Reset elspased time
+        elapsedTime = 0; //Reset elapased time
     }
 
     loopTime = millis() - startTime; //Calculate the looptime when a measurement is not being taken
