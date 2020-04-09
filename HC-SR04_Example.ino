@@ -1,7 +1,7 @@
-#include <NewPing.h>  //Download the NewPing library from 
+#include <NewPing.h>  //Download the NewPing library from https://playground.arduino.cc/Code/NewPing/
 
 #define SONAR_PIN 5  //We will use D5 for both the trig and echo pin.
-#define MAX_DISTANCE 200 //Max distance set to 200cm
+#define MAX_DISTANCE 200 //Max distance set to 200cm can be up to 400cm
 
 NewPing sonar(SONAR_PIN, SONAR_PIN, MAX_DISTANCE); // NewPing setup of pins and maximum distance.
 
